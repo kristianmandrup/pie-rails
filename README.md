@@ -36,6 +36,16 @@ See [PIE repo](git://github.com/lojjic/PIE.git) for more usage guides, demos etc
 
 Note: A `PIE.js` file is also included
 
+## Box-sizing
+
+A HTC file to enable _Box sizing_ for IE 6 & 7 is also included:
+
+```css
+#myElement {
+  behavior: url(/assets/boxsizing.htc);
+}
+```
+
 ## Textshadow
 
 The [textshadow](http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/) jquery plugin 

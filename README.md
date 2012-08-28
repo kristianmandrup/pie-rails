@@ -72,6 +72,24 @@ $(elem).textShadow({
 });
 ```
 
+## Text-overflow
+
+The [text-overflow](http://www.bramstein.com/projects/text-overflow/) jquery plugin 
+
+### Install
+
+```text
+//= require jquery.text-overflow.min
+```
+
+### Usage
+
+```javascript
+$('h1').textOverflow();
+```
+
+See [examples](http://www.bramstein.com/projects/text-overflow/examples/examples.html) for a good usage guide, including options supported.
+
 ## Contributing to pie-rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.

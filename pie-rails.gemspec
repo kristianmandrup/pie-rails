@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/pie-rails.rb",
+    "pie-rails.gemspec",
     "spec/pie-rails_spec.rb",
     "spec/spec_helper.rb",
     "vendor/assets/javascripts/PIE.htc",

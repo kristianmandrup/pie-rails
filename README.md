@@ -36,6 +36,32 @@ See [PIE repo](git://github.com/lojjic/PIE.git) for more usage guides, demos etc
 
 Note: A `PIE.js` file is also included
 
+## Textshadow
+
+The [textshadow](http://kilianvalkhof.com/2008/javascript/text-shadow-in-ie-with-jquery/) jquery plugin 
+
+### Install
+
+```text
+//= require jquery.textshadow.min
+```
+
+### Usage
+
+The plugin itself offers two functions: `textShadow();` and `removeTextShadow();`, which do what you expect them to do.
+
+`textShadow();` Allows you to optionally overwrite the text-shadow declaration from your CSS to tweak the look of the text-shadow in Internet Explorer, if needed. The available options look like this:
+
+```javascript
+$(elem).textShadow({
+  color:   "#000",
+  xoffset: "5px",
+  yoffset: "5px",
+  radius:  "5px",
+  opacity: "50"
+});
+```
+
 ## Contributing to pie-rails
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.

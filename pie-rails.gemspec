@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "pie-rails"
-  s.version = "1.0.1"
+  s.version = "1.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
@@ -31,6 +31,9 @@ Gem::Specification.new do |s|
     "spec/spec_helper.rb",
     "vendor/assets/javascripts/PIE.htc",
     "vendor/assets/javascripts/PIE.js",
+    "vendor/assets/javascripts/boxsizing.htc",
+    "vendor/assets/javascripts/jquery.text-overflow.js",
+    "vendor/assets/javascripts/jquery.text-overflow.min.js",
     "vendor/assets/javascripts/jquery.textshadow.js",
     "vendor/assets/javascripts/jquery.textshadow.min.js"
   ]

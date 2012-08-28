@@ -36,6 +36,38 @@ See [PIE repo](git://github.com/lojjic/PIE.git) for more usage guides, demos etc
 
 Note: A `PIE.js` file is also included
 
+## IE7, IE8, IE9
+
+See [github repo](https://github.com/roylory/ie7-js) and [original](http://code.google.com/p/ie7-js/)
+
+IE7.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues and makes transparent PNG work correctly under IE5 and IE6.
+
+Use any of the following:
+
+```html
+<!--[if lt IE 7]>
+<script src="/assets/IE7.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="/assets/IE8.js"></script>
+<![endif]-->
+
+<!--[if lt IE 8]>
+<script src="/assets/IE9.js"></script>
+<![endif]-->
+```
+
+### Transparent PNGs
+
+The script only fixes images named: `*-trans.png
+
+If you want the fix to apply to all PNG images then set a global variable as follows:
+
+```html
+<script src="/assets/IE8.js">IE7_PNG_SUFFIX=".png";</script>
+```
+
 ## Box-sizing
 
 A HTC file to enable _Box sizing_ for IE 6 & 7 is also included:

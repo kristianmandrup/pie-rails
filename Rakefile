@@ -17,7 +17,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "pie-rails"
   gem.homepage = "http://github.com/kristianmandrup/pie-rails"
   gem.license = "MIT"
-  gem.summary = %Q{Progressive Internet Explorer ready for use with Rails asset pipeline}
+  gem.summary = %Q{Progressive Internet Explorer (PIE) ready for use with Rails asset pipeline}
   gem.description = %Q{Use PIE in your Rails apps :)}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]

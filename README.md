@@ -31,6 +31,7 @@ In stylesheet:
     border-radius: 1em;
     behavior: url(/assets/PIE.htc);
 }
+```
 
 See [PIE repo](git://github.com/lojjic/PIE.git) for more usage guides, demos etc.
 

@@ -6,7 +6,7 @@ begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
   $stderr.puts e.message
-  $stderr.puts "Run `bundle install` to install missing gems"
+  $stderr.puts 'Run `bundle install` to install missing gems'
   exit e.status_code
 end
 require 'rake'
@@ -14,13 +14,15 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "pie-rails"
-  gem.homepage = "http://github.com/kristianmandrup/pie-rails"
+  gem.name = 'pie-rails'
+  gem.homepage = "http://css3pie.com/"
+  # gem.homepage = "http://github.com/kristianmandrup/pie-rails"
   gem.license = "MIT"
   gem.summary = %Q{Progressive Internet Explorer (PIE) ready for use with Rails asset pipeline}
   gem.description = %Q{Use PIE in your Rails apps :)}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
+  gem.version = '1.2.0'
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

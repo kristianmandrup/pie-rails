@@ -47,3 +47,7 @@ pkg
 
 # For rubinius:
 #*.rbc
+
+# For JetBrains:
+.idea
+.idea/

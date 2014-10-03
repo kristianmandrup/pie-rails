@@ -42,7 +42,7 @@ See [github repo](https://github.com/roylory/ie7-js) and [original](http://code.
 
 IE7.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues and makes transparent PNG work correctly under IE5 and IE6.
 
-Use any of the following:
+Use any of the following (not required if you are using PIE.htc in your CSS classes):
 
 ```html
 <!--[if lt IE 7]>

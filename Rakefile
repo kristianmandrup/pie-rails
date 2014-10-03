@@ -15,13 +15,13 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = 'pie-rails'
-  gem.homepage = "http://css3pie.com/"
+  gem.homepage = 'http://css3pie.com/'
   # gem.homepage = "http://github.com/kristianmandrup/pie-rails"
-  gem.license = "MIT"
-  gem.summary = %Q{Progressive Internet Explorer (PIE) ready for use with Rails asset pipeline}
-  gem.description = %Q{Use PIE in your Rails apps :)}
-  gem.email = "kmandrup@gmail.com"
-  gem.authors = ["Kristian Mandrup"]
+  gem.license = 'MIT'
+  gem.summary = 'Progressive Internet Explorer (PIE) ready for use with Rails asset pipeline'
+  gem.description = 'Use PIE in your Rails apps :)'
+  gem.email = 'kmandrup@gmail.com'
+  gem.authors = ['Kristian Mandrup', 'Akshaya Kumar Sharma']
   gem.version = '1.2.0'
   # dependencies defined in Gemfile
 end
